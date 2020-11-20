@@ -14,7 +14,20 @@
        "projectTeamMembers": // alt her eller opdeling???
         [
           "leader": "Batman",
-          "projectMembers": "Batman, Diana, Barry, Arthur, Selina"
+          "projectMemberOtherVersion": "Batman, Diana, Barry, Arthur, Selina",  // probably not this way? - Should the user get retrieved from other collection?
+          "projectMembers":
+            [
+              {
+                projectMemberName: "Barry",
+                projectMembersRoles: ["Coder", "Coffeydude"],
+                projectMemberEstimatedHours: 50
+              },
+              {
+                projectMemberName: "Selina",
+                projectMembersRoles: ["Crazy Cat Lady", "Designer"],
+                projectMemberEstimatedHours: 30
+              }
+            ]
         ],
       "stakeHolders": "Justice League"      
       "projectTasks": 
@@ -48,12 +61,7 @@
       "gitHubRepositoryLink: "https://github.com/kristian-wittrup/db_json_test",
       "dropboxLink": "https://github.com/kristian-wittrup/db_json_test"    
     },
-
   ],
-  
-  
-  
-
 
   "users": {
     "name": "typicode"
