@@ -4,13 +4,6 @@
     { "id": 2, "title": "test 2" },
     { "id": 3, "title": "test 3" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "tasksMMD": [
     { "name": "Web App", "allocatedStandardTime": 40},
     { "name": "Stationaries", "allocatedStandardTime": 10 },
@@ -20,9 +13,9 @@
   ],
   "tasksWebDev": [
     { "name": "Web App", "allocatedStandardTime": 40},
-    { "name": "Stationaries", "allocatedStandardTime": 10 },
-    { "name": "Report", "allocatedStandardTime": 40 },
-    { "name": "SEO Checklist", "allocatedStandardTime": 10 },
-    { "name": "Bring educator an apple", "allocatedStandardTime": 20 }
+    { "name": "REST API setup", "allocatedStandardTime": 10 },
+    { "name": "Deployment", "allocatedStandardTime": 40 },
+    { "name": "AR/VR", "allocatedStandardTime": 10 },
+    { "name": "Development Environments", "allocatedStandardTime": 20 }
   ]
 }
