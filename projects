@@ -11,10 +11,10 @@
           "endDate": "02-03-2021"
           "totalHoursAllocated": 200
         ],
-       "projectTeamMembers": 
+       "projectTeamMembers": // alt her eller opdeling???
         [
           "leader": "Batman",
-          "projectMembers": "Diana, Barry, Arthur, Selina"
+          "projectMembers": "Batman, Diana, Barry, Arthur, Selina"
         ],
       "stakeHolders": "Justice League"      
       "projectTasks": 
@@ -24,7 +24,7 @@
             "taskMember": "Barry, Diana",
             "hoursAllocated": 40,
             "hoursUsed": 30,
-            "taskKanbanStatus":  "Doing", // statusVariations: "ToDo", "Doing", "Done" => use for DraggableObject laterz 
+            "taskKanbanStatus": "Doing", // statusVariations: "ToDo", "Doing", "Done" => use for DraggableObject laterz 
             "taskToDo": [
               {
                 "taskTodoName": "firstToDo",
@@ -38,19 +38,24 @@
               }
             ]
           } 
-        ]
-    
-    
+        ],
+      "projectMembers": [
+        {
+          "projectMembers": 
+        }
+      ],
+      "techUsed": ["Quasar", "Vuex", "VueJS"],
+      "gitHubRepositoryLink: "https://github.com/kristian-wittrup/db_json_test",
+      "dropboxLink": "https://github.com/kristian-wittrup/db_json_test"    
     },
-    { "id": 2, "title": "test 2" },
-    { "id": 3, "title": "test 3" }
+
   ],
   
   
   
 
 
-  "profile": {
+  "users": {
     "name": "typicode"
   },
   "tasksMMD": [
