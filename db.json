@@ -10,5 +10,19 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "tasksMMD": [
+    { "name": "Web App", "allocatedStandardTime": 40},
+    { "name": "Stationaries", "allocatedStandardTime": 10 },
+    { "name": "Report", "allocatedStandardTime": 40 },
+    { "name": "SEO Checklist", "allocatedStandardTime": 10 },
+    { "name": "Bring educator an apple", "allocatedStandardTime": 20 }
+  ],
+  "tasksWebDev": [
+    { "name": "Web App", "allocatedStandardTime": 40},
+    { "name": "Stationaries", "allocatedStandardTime": 10 },
+    { "name": "Report", "allocatedStandardTime": 40 },
+    { "name": "SEO Checklist", "allocatedStandardTime": 10 },
+    { "name": "Bring educator an apple", "allocatedStandardTime": 20 }
+  ]
 }
