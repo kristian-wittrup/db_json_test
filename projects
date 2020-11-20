@@ -23,7 +23,7 @@
                 projectMemberEstimatedHours: 50
               },
               {
-                projectMemberName: "Selina",
+                projectMemberName: "Diana",
                 projectMembersRoles: ["Crazy Cat Lady", "Designer"],
                 projectMemberEstimatedHours: 30
               }
