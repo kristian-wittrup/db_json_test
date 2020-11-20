@@ -19,12 +19,12 @@
             [
               {
                 projectMemberName: "Barry",
-                projectMembersRoles: ["Coder", "Coffeydude"],
+                projectMemberRoles: ["Coder", "Coffeydude"],
                 projectMemberEstimatedHours: 50
               },
               {
                 projectMemberName: "Diana",
-                projectMembersRoles: ["Crazy Cat Lady", "Designer"],
+                projectMemberRoles: ["Crazy Cat Lady", "Designer"],
                 projectMemberEstimatedHours: 30
               }
             ]
