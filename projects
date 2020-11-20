@@ -1,0 +1,70 @@
+{
+  "projects": [
+    { 
+      "projectTemplate": ["RestAPI template maybe else empty"], // Must figure SMRT solution to import into VueX
+      "projectId": 1, 
+      "projectName": "Win over baddies"
+      "projectDescription": "test 1"
+      "timeSchedule": 
+        [
+          "startDate": "01-01-2021",
+          "endDate": "02-03-2021"
+          "totalHoursAllocated": 200
+        ],
+       "projectTeamMembers": 
+        [
+          "leader": "Batman",
+          "projectMembers": "Diana, Barry, Arthur, Selina"
+        ],
+      "stakeHolders": "Justice League"      
+      "projectTasks": 
+        [
+          "taskOne": {
+            "taskName": "taskNameOne",
+            "taskMember": "Barry, Diana",
+            "hoursAllocated": 40,
+            "hoursUsed": 30,
+            "taskKanbanStatus":  "Doing", // statusVariations: "ToDo", "Doing", "Done" => use for DraggableObject laterz 
+            "taskToDo": [
+              {
+                "taskTodoName": "firstToDo",
+                "taskToDoCompleted: true,
+                "notActiveFutureHourAssignedToTaskTodo": null
+              },
+              {
+                "taskTodoName": "secondToDo",
+                "taskToDoCompleted": false,
+                "notActiveFutureHourAssignedToTaskTodo": null
+              }
+            ]
+          } 
+        ]
+    
+    
+    },
+    { "id": 2, "title": "test 2" },
+    { "id": 3, "title": "test 3" }
+  ],
+  
+  
+  
+
+
+  "profile": {
+    "name": "typicode"
+  },
+  "tasksMMD": [
+    { "taskName": "Web App", "hoursAllocated": 40},
+    { "taskName": "Stationaries", "hoursAllocated": 10 },
+    { "taskName": "Report", "hoursAllocated": 40 },
+    { "taskName": "SEO Checklist", "hoursAllocated": 10 },
+    { "taskName": "Bring educator an apple", "hoursAllocated": 20 }
+  ],
+  "tasksWebDev": [
+    { "name": "Web App", "hoursAllocated": 40},
+    { "name": "Stationaries", "hoursAllocated": 10 },
+    { "name": "Report", "hoursAllocated": 40 },
+    { "name": "SEO Checklist", "hoursAllocated": 10 },
+    { "name": "Bring educator an apple", "hoursAllocated": 20 }
+  ]
+}
