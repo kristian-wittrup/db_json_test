@@ -3,36 +3,40 @@
     { 
       "projectTemplate": ["RestAPI template maybe else empty"], // Must figure SMRT solution to import into VueX
       "projectId": 1, 
-      "projectName": "Win over baddies"
-      "projectDescription": "test 1"
+      "projectName": "Win over baddies",
+      "projectDescription": "test 1",
       "timeSchedule": 
-        [
+        {
           "startDate": "01-01-2021",
-          "endDate": "02-03-2021"
+          "endDate": "02-03-2021",
           "totalHoursAllocated": 200
-        ],
-       "projectTeamMembers": // alt her eller opdeling???
+        }
+      ,
+      "projectTeamMembers": // alt her eller opdeling???
         [
-          "leader": "Batman",
-          "projectMemberOtherVersion": "Batman, Diana, Barry, Arthur, Selina",  // probably not this way? - Should the user get retrieved from other collection?
-          "projectMembers":
-            [
-              {
-                projectMemberName: "Barry",
-                projectMemberRoles: ["Coder", "Coffeydude"],
-                projectMemberEstimatedHours: 50
-              },
-              {
-                projectMemberName: "Diana",
-                projectMemberRoles: ["Crazy Cat Lady", "Designer"],
-                projectMemberEstimatedHours: 30
-              }
-            ]
+          {
+            "leader": "Batman",
+            "projectMemberOtherVersion": "Batman, Diana, Barry, Arthur, Selina",  // probably not this way? - Should the user get retrieved from other collection?
+            "projectMembers":
+              [
+                {
+                  "projectMemberName": "Barry",
+                  "projectMemberRoles": ["Coder", "Coffeydude"],
+                  "projectMemberEstimatedHours": 50
+                },
+                {
+                  "projectMemberName": "Diana",
+                  "projectMemberRoles": ["Crazy Cat Lady", "Designer"],
+                  "projectMemberEstimatedHours": 30
+                }
+              ]
+          }
         ],
-      "stakeHolders": "Justice League"      
+      "stakeHolders": "Justice League",
       "projectTasks": 
         [
-          "taskOne": {
+          {
+            "projectTaskID": 1,
             "taskName": "taskNameOne",
             "taskMember": "Barry, Diana",
             "hoursAllocated": 40,
@@ -41,7 +45,7 @@
             "taskToDo": [
               {
                 "taskTodoName": "firstToDo",
-                "taskToDoCompleted: true,
+                "taskToDoCompleted": true,
                 "notActiveFutureHourAssignedToTaskTodo": null
               },
               {
@@ -54,15 +58,17 @@
         ],
       "projectMembers": [
         {
-          "projectMembers": 
+          "projectMembers": "Person"
         }
       ],
       "techUsed": ["Quasar", "Vuex", "VueJS"],
-      "gitHubRepositoryLink: "https://github.com/kristian-wittrup/db_json_test",
+      "gitHubRepositoryLink": "https://github.com/kristian-wittrup/db_json_test",
       "dropboxLink": "https://github.com/kristian-wittrup/db_json_test"    
-    },
+    }
   ],
 
+
+  // Not used structure
   "users": {
     "name": "typicode"
   },
