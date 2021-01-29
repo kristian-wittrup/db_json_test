@@ -17,7 +17,7 @@
           {
             "leader": "Batman",
             "projectMemberOtherVersion": "Batman, Diana, Barry, Arthur, Selina",  // probably not this way? - Should the user get retrieved from other collection?
-            "projectMembers":
+            "projectMembers": // maybe retrieve user information from firebase collection and have empty array
               [
                 {
                   "projectMemberName": "Barry",
@@ -56,7 +56,7 @@
             ]
           } 
         ],
-      "projectMembers": [
+      "projectMembers": [ // Redundant?
         {
           "projectMembers": "Person"
         }
